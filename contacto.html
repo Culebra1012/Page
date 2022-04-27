@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <head lang="es">
+        <title>Ecommerce - Contacto</title>
+
+        <LINK REL=StyleSheet HREF="normalize.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap" rel="stylesheet">
+
+        <LINK REL=StyleSheet HREF="estilos.css">
+    </head>
+    
+        <header>
+            <h1 class="nombre-sitio">Muebles <span>Caf</span></h1>
+        </header>
+
+        <div class="contenedor-navegacion">        
+            <nav class="navegacion-principal contenedor">
+            <a href="index.html">Inicio</a>
+            <a href="nosotros.html">Nosotros</a>
+            <a href="tienda.html">Tienda</a>
+            <a href="blog.html">Blog</a>
+            <a href="galeria.html">Galeria</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+    </div>
+    
+     
+        <main class="contenido-principal contenedor">
+            <h2 class="text-center">Contacto</h2>
+            
+            <form class="formulario">
+             <fieldset>
+                 <legend>Tus Datos</legend>
+             <div class="campo">
+                <label>Nombre:</label>
+                <input class="input" type="text" placeholder="Coloca Tu Nombre">
+             </div>
+
+             <div class="campo">
+                <label>Asunto:</label>
+                <input class="input" type="text" placeholder="Coloca El Asunto">
+             </div>
+
+             <div class="campo">
+                <label>E-mail:</label>
+                <input class="input" type="email" placeholder="Coloca Tu Correo">
+             </div>
+
+             <div class="campo">
+                <label>Telefono:</label>
+                <input class="input" type="tel" placeholder="Coloca Tu Telefono">
+             </div>
+             
+             <div class="campo">
+                <label>Mensaje:</label>
+                <textarea class="input" row="10" cols="20"></textarea>
+             </div>   
+             </fieldset>
+             <fieldset>
+                 <legend>Pais</legend>
+
+                 <div class="campo">
+                    <label>Asunto:</label>
+                    <select class="input">
+                        <option disabled>-- Seleccione --</option>
+                        <option>Colombia</option>
+                        <option>Argentina</option>
+                        <option>Perú</option>
+                        <option>Chile</option>
+                    </select>
+                 </div>   
+         
+
+
+             </fieldset>
+             <fieldset>
+                 <legend>Información Extra</legend>
+                 <div class="campo">
+                    <label>Cliente</label>
+                    <input  type="radio" name="tipo" value="cliente">
+                 </div>
+
+                 <div class="campo">
+                    <label>Proveedor</label>
+                    <input type="radio" name="tipo" value="proveedor">
+                 </div>
+
+                 <div class="campo">
+                    <label>Categoria de Interés</label>
+                    <input class="input" list="categorias" name="categorias">
+                    <datalist id="categorias">
+                        <option value="Cocina">
+                            <option value="Exterior">
+                                <option value="Oficina">
+                    </datalist>
+                 </div>
+             </fieldset>
+              <input class="btnformulario" type="submit" value="Enviar formulario"> 
+            </form>
+    </main>
+
+
+        <footer class="site-footer">
+            <div class="grid-footer contenedor">
+            <div>
+                <h3>Categorias</h3>
+                <nav class="footer-menu">
+                    <a href="#">Cocina</a>
+                    <a href="#">Oficina</a>
+                    <a href="#">Jardin</a>
+                    <a href="#">Cochera</a>
+                    <a href="#">Dormitorios</a>
+                </nav>
+            </div>
+            <div>
+                <h3>Sobre nosotros</h3>
+                <nav class="footer-menu">
+                    <a href="#">Nuestra historia</a>
+                    <a href="#">Misión</a>
+                    <a href="#">Vacantes disponibles</a>
+                    <a href="#">Politica de privacidad</a>
+                    <a href="#">Terminos del servicios</a>
+                </nav>
+            </div>
+            <div>
+                <h3>Soporte</h3>
+                <nav class="footer-menu">
+                    <a href="#">Preguntas frecuentes</a>
+                    <a href="#">Ayuda en linea</a>
+                    <a href="#">Confianza y seguridad</a>
+                </nav>
+            </div>
+         </div>  
+
+            <p class="copyright">Todos los derechos reservados por Muebles Caf copyright 2022 ©</p>
+        </footer>
